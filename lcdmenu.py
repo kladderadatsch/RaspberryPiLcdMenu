@@ -490,16 +490,16 @@ class Display:
             if row < len(self.curFolder.items):
                 if row == self.curSelectedItem:
                     cmd = '-'+self.curFolder.items[row].text
-                    if len(cmd) < 16:
-                        for row in range(len(cmd), 16):
+                    if len(cmd) < DISPLAY_COLS:
+                        for row in range(len(cmd), DISPLAY_COLS):
                             cmd += ' '
                     if DEBUG:
                         print('|'+cmd+'|')
                     str += cmd
                 else:
                     cmd = ' '+self.curFolder.items[row].text
-                    if len(cmd) < 16:
-                        for row in range(len(cmd), 16):
+                    if len(cmd) < DISPLAY_COLS:
+                        for row in range(len(cmd), DISPLAY_COLS):
                             cmd += ' '
                     if DEBUG:
                         print('|'+cmd+'|')
