@@ -62,5 +62,6 @@ Changes:
  - Added support for a reboot command
 
 Written by Alan Aufderheide
+Fixed for Compatibility to python3 and adafruits latest char display libs by kladderadatsch
 
 GPL v3 license, kindly include text above in any redistribution.
