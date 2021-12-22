@@ -61,6 +61,10 @@ Changes:
  - Fixed bug to allow backing out of ListSelector
  - Added support for a reboot command
 
+ 22-Dec-2021
+ - Fixes for python3
+ - Fixes for latest adafruit char disp lib
+
 Written by Alan Aufderheide
 Fixed for Compatibility to python3 and adafruits latest char display libs by kladderadatsch
 
